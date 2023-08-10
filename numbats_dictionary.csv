@@ -1,0 +1,17 @@
+﻿variable,class,description
+decimalLatitude,double,decimalLatitude
+decimalLongitude,double,decimalLongitude
+eventDate,datetime,eventDate
+scientificName,factor,"Either ""Myrmecobius fasciatus"" or ""Myrmecobius fasciatus rufus"""
+taxonConceptID,factor,The URL for this (sub)species
+recordID,character,recordID
+dataResourceName,factor,dataResourceName
+year,integer,The 4-digit year of the event (when available)
+month,factor,The 3-letter month abbreviation of the event (when available)
+wday,factor,The 3-letter weekday abbreviation of the event (when available)
+hour,integer,The hour of the event (when available)
+day,date,The date of the event (when available)
+dryandra,logical,whether the observation was in Dryandra Woodland
+prcp,double,"Precipitation on that day in Dryandra Woodland (when relevant), in millimeters"
+tmax,double,"Maximum temperature on that day in Dryandra Woodland (when relevant), in degrees Celsius"
+tmin,double,"Minimum temperature on that day in Dryandra Woodland (when relevant), in degrees Celsius"
